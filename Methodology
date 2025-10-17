@@ -1,0 +1,9 @@
+1. HDI values prediction methodology
+
+Method: A Linear Regression based on Time Intervals was used. A linear regression was performed on the data points from the years 2001, 2011, and 2021 to find the line of best fit that
+represents the average rate of HDI growth over this period. This line was then extended to project the HDI value for 2031.
+
+2. DALY values prediction methodology
+
+For each of the three DALY categories—Communicable, Noncommunicable, and Injury—three models (Linear, Polynomial (Quadratic) Regression, and Exponential Decay) were tested to deter-
+mine the best fit for the data. An R squared test was performed to measure the fit.
